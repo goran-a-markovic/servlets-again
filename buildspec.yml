@@ -20,7 +20,7 @@ phases:
   post_build:
     commands:
 
-      - mv target/ServletsAgain-1.0-SNAPSHOT.war ROOT.war
+      - mv target/ServletsAgain-1.0.war ROOT.war
 artifacts:
   files:
     - ROOT.war
