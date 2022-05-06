@@ -24,4 +24,13 @@
         <url-pattern>/user</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>pingServlet</servlet-name>
+        <servlet-class>servlets.PingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pingServlet</servlet-name>
+        <url-pattern>/ping</url-pattern>
+    </servlet-mapping>
+
 </web-app>
